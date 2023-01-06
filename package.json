@@ -1,7 +1,7 @@
 {
   "name": "packetpay-weather-api-wrapper",
   "version": "1.0.0",
-  "description": "Mocking NanoStore for local development, while mocking fraudulent storage companies at the same time.",
+  "description": "Weather API Tutorial.",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
