@@ -3,8 +3,8 @@ document.getElementById('fetch-weather-button').addEventListener('click', async 
     method: 'POST'
   })
   const dataObj = response.body
-  const dataStr = dataObj.toString('utf8')
+  const data = new TextDecoder().decode(response.body)
   console.log('dataObj:', dataObj)
-  console.log('dataStr:', dataStr)
-  document.getElementById('weather-data').innerHTML = dataStr
+  console.log('dataStr:', data)
+  document.getElementById('weather-data').innerHTML = JSON.stringify(JSON.parse(data).weather)
 })
