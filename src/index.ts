@@ -7,6 +7,7 @@ import { createAuthMiddleware } from '@bsv/auth-express-middleware'
 import * as crypto from 'crypto'
 (global.self as any) = { crypto }
 
+// NOTE: ONLY FOR DEMO, USE ENV TO SECURE PROD ENVIRONMENT VARIABLES! ---------------------------------------------
 const SERVER_PRIVATE_KEY = 'f9b0f65b26f7adfc70d3819491b42506c07d8f150c55a1eb31efe3b4997edba3'
 const WALLET_STORAGE_URL = 'https://storage.babbage.systems'
 const HTTP_PORT = 3000
