@@ -4,7 +4,7 @@
 
 This example demonstrates how to set up and use the Monetize Weather API Wrapper, which consists of:
 
-- **A backend server** (`server.ts`) using Express, auth-express-middleware, and payment-express-middleware.
+- **A backend server** (`index.ts`) using Express, auth-express-middleware, and payment-express-middleware.
 - **A frontend client** (`client.js`) that fetches weather data through AuthFetch.
 
 ---
