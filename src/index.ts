@@ -70,5 +70,5 @@ app.get('/weatherStats', async (req: AuthenticatedRequest, res: Response) => {
 
 // Start the server.
 app.listen(HTTP_PORT, () => {
-  console.log('PacketPay Weather API Wrapper listening on port', HTTP_PORT)
+  console.log('Monetized Weather API Wrapper listening on port', HTTP_PORT)
 })
